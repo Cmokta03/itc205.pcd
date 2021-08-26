@@ -3,9 +3,9 @@ import library.entities.Book;
 import library.entities.library;
 import library.entities.Loan;
 
-public class returnBookcontrol { // change returnBookcontrol to returnBookcontrol
+public class returnBookcontrol { // change rETURN_bOOK_cONTROL to returnBookcontrol
 
-	private returnBookui Ui; //change returnBookui to returnBookui
+	private returnBookui ui; //change returnBookui to returnBookui
 	private enum controlstate { INITIALISED, READY, INSPECTING }; //change cOnTrOl_sTaTe to controlstate
 	private controlstate state; //change state to state
 	
